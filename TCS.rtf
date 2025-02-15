@@ -1,0 +1,159 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="de">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Betonpumpenunion</title>\
+    <style>\
+        body \{\
+            font-family: Arial, sans-serif;\
+            margin: 0;\
+            padding: 0;\
+            background: #f5f5f5;\
+        \}\
+        nav \{\
+            background: blue;\
+            color: white;\
+            display: flex;\
+            justify-content: space-between;\
+            padding: 15px;\
+        \}\
+        nav ul \{\
+            list-style: none;\
+            display: flex;\
+            gap: 20px;\
+        \}\
+        nav a \{\
+            color: white;\
+            text-decoration: none;\
+        \}\
+        .hero \{\
+            height: 60vh;\
+            background: url('https://source.unsplash.com/1600x900/?construction') center/cover;\
+            color: white;\
+            text-align: center;\
+            display: flex;\
+            flex-direction: column;\
+            justify-content: center;\
+        \}\
+        .container \{\
+            width: 80%;\
+            margin: auto;\
+            padding: 20px;\
+        \}\
+        .contact form, .career form \{\
+            display: flex;\
+            flex-direction: column;\
+            max-width: 400px;\
+            margin: auto;\
+        \}\
+        button \{\
+            background: blue;\
+            color: white;\
+            padding: 10px;\
+            border: none;\
+            cursor: pointer;\
+        \}\
+        .map-container \{\
+            text-align: center;\
+            margin-top: 20px;\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <!-- Navigation -->\
+    <nav>\
+        <div class="logo">BPU</div>\
+        <ul>\
+            <li><a href="#about">\'dcber uns</a></li>\
+            <li><a href="#services">Leistungen</a></li>\
+            <li><a href="#careers">Karriere</a></li>\
+            <li><a href="#contact">Kontakt</a></li>\
+        </ul>\
+    </nav>\
+\
+    <!-- Startseite -->\
+    <header class="hero">\
+        <h1>Willkommen bei der Betonpumpenunion</h1>\
+        <p>Effiziente L\'f6sungen f\'fcr Ihren Bau</p>\
+        <a href="#contact" style="background: white; color: blue; padding: 10px; text-decoration: none; border-radius: 5px;">Jetzt Kontakt aufnehmen</a>\
+    </header>\
+\
+    <!-- \'dcber uns -->\
+    <section id="about" class="container">\
+        <h2>\'dcber uns</h2>\
+        <p>Wir sind ein f\'fchrendes Unternehmen im Bereich Betonpumpen und Transport.</p>\
+        <img src="https://source.unsplash.com/800x400/?teamwork" alt="Unser Team" width="100%">\
+    </section>\
+\
+    <!-- Leistungen -->\
+    <section id="services" class="container">\
+        <h2>Unsere Leistungen</h2>\
+        <div class="service">\
+            <img src="https://source.unsplash.com/400x250/?concrete" alt="Betonpumpen">\
+            <h3>Betonpumpen</h3>\
+            <p>Hochwertige Betonf\'f6rderung f\'fcr Ihr Bauprojekt.</p>\
+        </div>\
+        <div class="service">\
+            <img src="https://source.unsplash.com/400x250/?truck" alt="Transport">\
+            <h3>Transport</h3>\
+            <p>Sichere und zuverl\'e4ssige Lieferung von Baumaterialien.</p>\
+        </div>\
+    </section>\
+\
+    <!-- Karriere -->\
+    <section id="careers" class="container">\
+        <h2>Karriere</h2>\
+        <p>Wir suchen neue Talente! Bewirb dich jetzt:</p>\
+        <form>\
+            <label for="name">Name:</label>\
+            <input type="text" id="name" name="name" required>\
+\
+            <label for="email">E-Mail:</label>\
+            <input type="email" id="email" name="email" required>\
+\
+            <label for="message">Bewerbungstext:</label>\
+            <textarea id="message" name="message" required></textarea>\
+\
+            <button type="submit">Bewerbung senden</button>\
+        </form>\
+    </section>\
+\
+    <!-- Kontakt -->\
+    <section id="contact" class="container">\
+        <h2>Kontakt</h2>\
+        <p>Wir freuen uns auf Ihre Anfrage.</p>\
+        <form>\
+            <label for="name">Name:</label>\
+            <input type="text" id="name" name="name" required>\
+\
+            <label for="email">E-Mail:</label>\
+            <input type="email" id="email" name="email" required>\
+\
+            <label for="message">Nachricht:</label>\
+            <textarea id="message" name="message" required></textarea>\
+\
+            <button type="submit">Absenden</button>\
+        </form>\
+\
+        <!-- Google Maps Standort -->\
+        <h3>Unser Standort</h3>\
+        <div class="map-container">\
+            <iframe \
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.949033745291!2d9.496149115674253!3d48.01742577921452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479bbd93545cd2bd%3A0x17b7a6e9a6f2c3a!2sBad%20Saulgau!5e0!3m2!1sde!2sde!4v1613668987375!5m2!1sde!2sde"\
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">\
+            </iframe>\
+        </div>\
+    </section>\
+\
+</body>\
+</html>\
+}
